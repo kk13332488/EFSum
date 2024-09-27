@@ -1,0 +1,23 @@
+USE_TWO_SERVERS: "no" 
+FEEDBACK_CUDA_DEVICES: "4,5,6,7"
+FEEDBACK_MODEL_NAME_OR_PATH: "None"
+FEEDBACK_PORT: "8002"
+
+GENERATE_CUDA_DEVICES: "0,1,2,3"
+GENERATE_MODEL_NAME_OR_PATH: "" # custom
+
+GENERATE_PORT: "10000"
+
+TENSOR_PARALLEL_SIZE: "1"
+
+prompt_key: "base"
+conda_env_name: "vllm"
+use_feedback: "No" 
+use_iter: "No" 
+num_iteration: "20"
+seed_json: "No" 
+K: "" # custom
+dataset_name: "" # custom
+mode: "construction" # custom 
+dataset_path: ""
+
